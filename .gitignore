@@ -1,0 +1,33 @@
+# Orphan lockfile at repo root (apps use frontend/ and backend/)
+/package-lock.json
+
+# Dependencies
+node_modules/
+
+# Build / cache
+.next/
+out/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+
+# Env (keep .example files)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Logs & OS
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# IDE
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Debug
+*.log
