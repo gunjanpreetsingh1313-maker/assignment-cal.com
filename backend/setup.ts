@@ -1,10 +1,11 @@
 import mysql from "mysql2/promise";
+import dotenv from "dotenv";
 
 async function test() {
   const conn = await mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Gunjan1313@",
+    password: "process.env.DB_PASSWORD",
   });
 
   try {
