@@ -21,7 +21,7 @@ export function DashboardSidebar() {
           <CalendarDays className="h-5 w-5" />
         </div>
         <div>
-          <p className="text-sm font-semibold tracking-tight">Schedule</p>
+          <p className="text-sm font-semibold tracking-tight">Cal.Com</p>
           <p className="text-xs text-muted-foreground">Dashboard</p>
         </div>
       </div>
@@ -49,9 +49,7 @@ export function DashboardSidebar() {
           );
         })}
       </nav>
-      <div className="border-t p-4 text-xs text-muted-foreground">
-        No authentication — demo admin surface.
-      </div>
+    
     </aside>
   );
 }
